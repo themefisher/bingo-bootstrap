@@ -5,19 +5,6 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*
-THEME: Bingo | Responsive Multipurpose Parallax HTML5 Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/bingo-bootstrap-business-template/
-DEMO: https://demo.themefisher.com/themefisher/bingo/
-GITHUB: https://github.com/themefisher/Bingo-Bootstrap-Business-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
 body {
@@ -1396,7 +1383,7 @@ a:focus, a:hover {
   right: 0%;
   bottom: 0;
   height: 145px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .testimonial .item i {
   font-size: 60px;
@@ -1477,7 +1464,7 @@ a:focus, a:hover {
   border-left: 2px solid #28ABE3;
   padding: 40px 35px;
   margin-bottom: 30px;
-  background: #eeeeee;
+  background: rgb(238, 238, 238);
 }
 .post-content-share {
   margin-bottom: 100px;
@@ -1909,47 +1896,37 @@ a:focus, a:hover {
   .parallax-section {
     background-position: center top !important;
   }
-
   /* about us */
   .feature-desc h3 {
     margin-top: 0;
   }
-
   /* our team */
   .team-mate {
     margin-bottom: 30px;
   }
-
   .mask ul {
     top: 85px;
   }
-
   .mask ul li {
     margin: 0 5px;
   }
-
   .team-mate > h4 {
     margin-bottom: 10px;
   }
-
   .team-mate img {
     margin: 0 auto;
   }
-
   .member-info ul li {
     margin-right: 10px;
   }
-
   /* testimonial */
   .client-info {
     width: 55%;
   }
-
   /* blog page */
   .tab-post-nav li a {
     padding: 15px 8px;
   }
-
   /* single blog page */
   .author-bio h5 {
     margin-left: 70px;
@@ -1962,78 +1939,63 @@ a:focus, a:hover {
   .counters-item:before {
     display: none;
   }
-
   /* parallax section */
   .parallax-section {
     background-position: center top !important;
   }
-
   /* navigation */
   .navbar-inverse .navbar-nav li a {
     padding: 20px 10px;
   }
-
   /* about us */
   .wrap-about {
     margin: 0 0 75px;
   }
-
   .about-content {
     margin: 0 auto;
     width: 60%;
   }
-
   /* fun facts */
   #counter {
     padding-bottom: 50px;
   }
-
   .counters-item {
     margin-bottom: 30px;
   }
-
   /* our team */
   .team-mate {
     margin: 0 auto 30px;
     width: 280px;
   }
-
   /* our skills */
   .skill-chart {
     margin: 0 auto 40px;
     width: 300px;
   }
-
   .skill-chart {
     margin: 0 auto 40px;
     width: 90%;
   }
-
   .skill-chart > h3 {
     margin: 15px 0;
   }
-
   /* pricing table */
   .pricing {
     margin: 0 auto 30px;
     width: 300px;
   }
-
   /* testimonial */
   .client-info {
     width: 75%;
   }
-
   /* latest posts */
   .note {
     margin-bottom: 30px;
   }
-
   /* blog page */
   .tab-post-nav li a {
     padding: 10px;
   }
-
   /* singla blog page */
   .author-social {
     margin-left: 0;
@@ -2046,146 +2008,116 @@ a:focus, a:hover {
   .counters-item:before {
     display: none;
   }
-
   .clients-logo-slider {
     text-align: center;
   }
-
   /* parallax section */
   .parallax-section {
     background-position: center top !important;
   }
-
   /* h1 font size home slider */
   h1 {
     font-size: 30px;
   }
-
   .wrap-about {
     margin: 0 auto 80px;
     width: 85%;
   }
-
   .feature-desc a {
     margin: 5px 5px 5px 0;
   }
-
   /* fun facts */
   /* services */
   #services .title {
     padding-bottom: 60px;
   }
-
   /* our skills */
   .skill-chart {
     margin: 0 auto 40px;
     width: 280px;
   }
-
   /* our team */
   .team-mate {
     margin: 0 auto 31px;
     width: 280px;
   }
-
   .team-mate img {
     margin: 0 auto;
   }
-
   .member-info ul {
     text-align: center;
     margin-bottom: 10px;
   }
-
   /* pricing table */
   .pricing {
     margin: 0 auto 20px;
     width: 280px;
   }
-
   /* portfolio */
   .portfolio-filter ul li a {
     margin: 0 10px 10px 0;
     padding: 5px 10px;
   }
-
   /* testimonials */
   .sub-title h3 {
     font-size: 18px;
   }
-
   .client-info {
     width: 100%;
   }
-
   /* latest posts */
   .note {
     margin-bottom: 30px;
   }
-
   .note .excerpt {
     padding: 0 20px 20px;
   }
-
   .all-post {
     margin: 20px 0 30px;
   }
-
   /* contact */
   .contact-info {
     margin: 0 0 30px;
   }
-
   #map-canvas {
     height: 250px;
   }
-
   /* footer */
   .social-icon ul li,
 .social-icon ul li:first-child {
     margin: 15px;
   }
-
   .social-icon ul li a {
     width: 50px;
     height: 50px;
   }
-
   .social-icon ul li a i {
     font-size: 24px;
     line-height: 50px;
   }
-
   .blog-title h1 {
     font-size: 28px;
   }
-
   /* blog page */
   #blog-page {
     margin: 0;
   }
-
   #blog-posts {
     margin: 0 0 40px;
   }
-
   .post-excerpt h3 {
     font-size: 20px;
   }
-
   .post-pagination ul li {
     margin: 0 10px 10px 0;
   }
-
   .tab-post-nav li a {
     padding: 8px 5px;
   }
-
   /* single blog page */
   .author-social {
     margin-left: 0;
   }
-
   .author-avatar {
     margin-right: 10px;
   }
@@ -2197,60 +2129,49 @@ a:focus, a:hover {
   .title h2 {
     font-size: 32px;
   }
-
   .counter .counter-title h2 {
     font-size: 35px;
   }
-
   /* about us */
   .wrap-about {
     margin: 0 auto 75px;
     width: 70%;
   }
-
   /* our team */
   .team-mate {
     margin: 0 auto 30px;
     width: 280px;
   }
-
   .team-mate img {
     margin: 0 auto;
   }
-
   /* portfolio */
   .og-grid li {
     width: 245px;
   }
-
   /* skills */
   .skill-chart {
     margin: 0 auto 40px;
     width: 300px;
   }
-
   /* pricing table */
   .pricing {
     margin: 0 auto 30px;
     width: 350px;
   }
-
   /* testimonials */
   .client-info {
     width: 74%;
   }
-
   /* latest posts */
   .note {
     margin: 0 auto 30px;
     width: 75%;
   }
-
   /* contact */
   .contact-info {
     width: 100%;
   }
-
   /* blog page */
   .tab-post-nav li a {
     padding: 10px 15px;
